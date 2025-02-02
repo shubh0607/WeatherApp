@@ -1,0 +1,19 @@
+/* App.css */
+body {
+    background-color:aliceblue;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Ensure all text inside App.jsx also gets styled */
+#root, .app-container {
+    background-color:aliceblue;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
